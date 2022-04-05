@@ -4,37 +4,45 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
+  <!-- Google fonts Poppins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+
+  <link rel="stylesheet" href="./public/css/index.css">
   <title>Frontend Mentor | Intro component with sign up form</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
+
   </style>
 </head>
 <body>
 
   <h1>Learn to code by watching others</h1>
 
-  <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+  <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great,
   but understanding how developers think is invaluable.</p>
 
   <span><b>Try it free 7 days</b> then $20/mo. thereafter</span>
+  <form>
+    <fieldset>
+      <input type="text" placeholder="First name">
+      <input type="text" placeholder="Last name">
+      <input type="text" placeholder="Email Address">
+      <input type="password" placeholder="Password">
+      <button>Claim your free trial</button>
+      <small>By clicking the button, you are agreeing to our Terms and Services</small>
+    </fieldset>
+  </form>
 
-  First Name 
-  Last Name 
-  Email Address
-  Password
-
-  Claim your free trial 
-
-  By clicking the button, you are agreeing to our Terms and Services
-  
   <footer>
     <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
       Coded by <a href="https://github.com/italopinto/landing-page-challenge" target="_blank">Ítalo Pinto</a>.
     </p>
   </footer>
