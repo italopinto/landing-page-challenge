@@ -1,0 +1,5 @@
+( ) Separar título e subtítulo para um lado e os demais para o outro
+    ( ) usar divs, classes, id, etc, para isso, através do CSS.
+    ( ) Layout grid e flexbox
+
+( ) Aplicar mais estilos nos componentes, cores, tamanhos, alinhamentos, etc.
