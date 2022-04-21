@@ -16,10 +16,16 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
+    .attribution { font-size: 11px; text-align: center; margin-top: 70px;}
     .attribution a { color: hsl(228, 45%, 44%); }
 
   </style>
+  <script>
+    function sendForm(event) {
+      event.preventDefault();
+      /* TODO: Deal with the data from the form */
+    }
+  </script>
 </head>
 <body>
 
@@ -39,8 +45,8 @@
         <input type="text" placeholder="Last name">
         <input type="text" placeholder="Email Address">
         <input type="password" placeholder="Password">
-        <input type="submit" value="CLAIM YOUR FREE TRIAL">
-        <small>By clicking the button, you are agreeing to our Terms and Services</small>
+        <input type="submit" value="CLAIM YOUR FREE TRIAL" onclick="sendForm(event)">
+        <p class="agreement">By clicking the button, you are agreeing to our <span class="terms">Terms and Services</span></p>
       </fieldset>
     </form>
 
